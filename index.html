@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote Interface</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Anton&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <span class="title-nav">Web Développer Academy</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+    </nav>
+    <h1>Vote pour moi !</h1>
+    <div class="image-container">
+        <img src="pp_emoji-2.png" alt="Image principale">
+    </div>
+    <div class="buttons">
+        <button class="btn-1" id="btn-like">
+            <i class="fa-solid fa-thumbs-up"></i>
+        </button>
+        <button class="btn-2" id="btn-dislike">
+            <i class="fa-solid fa-thumbs-down"></i>
+        </button>
+    </div>
+    <div class="container-msg" id="message-container" hidden>
+        <div class="msg-container">
+            <span id="vote-message">Ton vote est précieux !</span>
+        </div>
+    </div>
+    <section>
+        <div>
+            <span>
+                <img src="https://6e4ca49f-8a82-4c85-ba46-b0d5b96a69dc-00-255kivx55p5s9.worf.replit.dev/tracker.png" alt="">
+            </span>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>

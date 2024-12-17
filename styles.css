@@ -1,0 +1,118 @@
+
+:root {
+    --font1: 'Poppins', serif;
+}
+
+
+body {
+    font-family: var(--font1);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #2b2a2a;
+}
+
+nav {
+    background-color: #000;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-nav{
+    color: rgb(216, 213, 213);
+    font-family: var(--font1);
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 2%;
+}
+.lucide-globe{
+    color: rgb(216, 213, 213);
+    padding-right: 2%;
+}
+
+h1 {
+    padding-top: 3%;
+    margin: 20px 0;
+    font-size: 45px;
+    color: rgb(216, 213, 213);
+}
+
+.image-container {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center; /* Centre l'image horizontalement */
+}
+
+.image-container img {
+    width: 300px;          /* Largeur fixe */
+    height: 300px;         /* Hauteur fixe pour conserver le cercle */
+    object-fit: cover;     /* Garde les proportions sans déformation en couvrant le cercle */
+    border-radius: 50%;    /* Assure que l'image reste circulaire */
+    max-width: 100%;       /* Empêche l'image de dépasser le conteneur si l'écran est petit */
+}
+
+button {
+    background: #dbdada23;
+}
+
+.btn-1 {
+    height: 80px;
+    width: auto;
+    border-radius: 30%;
+    border: none;
+    margin: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-1:hover,
+.btn-1.active {
+    transform: scale(1.1);
+    background: rgba(110, 255, 81, 0.29);
+}
+
+.fa-thumbs-up {
+    font-size: 55px;
+    color: rgb(15, 158, 15);
+}
+
+.btn-2 {
+    height: 80px;
+    width: auto;
+    border-radius: 30%;
+    border: none;
+    margin: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-2:hover,
+.btn-2.active {
+    transform: scale(1.1);
+    background: rgba(255, 81, 81, 0.29);
+}
+
+.fa-thumbs-down {
+    font-size: 55px;
+    color: rgb(158, 15, 15);
+}
+
+.buttons img {
+    width: 40px;
+    height: 40px;
+}
+
+.container-msg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.msg-container span {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(216, 213, 213);
+}
